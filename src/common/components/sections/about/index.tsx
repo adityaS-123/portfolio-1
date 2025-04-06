@@ -1,7 +1,7 @@
 'use client';
 
 import { useSectionInView } from '@/common/lib/hooks';
-import portfolioImg from '@/../public/images/photo.jpg';
+import portfolioImg from '@/../public/images/shwetaPic.png';
 import { smoothScrollTo } from '@/common/lib/utils';
 import SectionDivider from '@/common/components/shared/section-divider';
 import SectionHeading from '@/common/components/shared/section-heading';
@@ -46,15 +46,15 @@ export default function About() {
             <div className="text-md relative z-40 flex flex-col gap-3 font-semibold tracking-wide text-primary lg:absolute lg:right-0 lg:top-[27%] lg:block lg:max-w-[580px] lg:text-start lg:text-lg xl:top-1/3 xl:h-[442px] xl:max-w-[650px]">
               <div className="flex h-full flex-col justify-center gap-6">
                 <span>
-                  I&apos;m Front-end developer with expertise in TypeScript,
-                  React & Next.js. Proven ability to deliver user-centered web
-                  applications with a focus on intuitive experiences and user
-                  interaction.
+                Landscape Designer specializing in master planning, urban design, ecological restoration and sustainable design solutions. 
+Proficient in AutoCAD, Adobe Photoshop, SketchUp, Revit, Lumion and Microsoft Suite. My experience includes designing 
+and implementing climate-resilient landscapes that promote sustainability while navigating the complexities of site
+specific constraints and environmental regulations.
                 </span>
                 <span>
-                  Seeking for Web Development opportunities where I can leverage
-                  my skills to create meaningful connections between products
-                  and users.
+                I excel at designing and managing projects from concept through 
+completion, collaborating closely with clients and multidisciplinary teams to deliver effective solutions. Pursuing 
+certification as a Landscape Architect with the Ontario Association of Landscape Architects (OALA) 
                 </span>
                 <p className="flex flex-col items-start sm:items-center lg:items-start">
                   <span>So if you are interested,</span>

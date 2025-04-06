@@ -2,13 +2,13 @@ import React from 'react';
 
 import campwithusImg from '@/../public/images/camp-with-us.png';
 import carcatalogImg from '@/../public/images/car-catalog.png';
-import filedriveImg from '@/../public/images/file-drive.png';
+import project3 from '@/../public/images/project3.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
 import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
 import portfolioImg from '@/../public/images/portfolio.png';
-import auditMasterImg from '@/../public/images/audit-master.png';
-import accountingImg from '@/../public/images/accounting.jpg';
+import project1 from '@/../public/images/project1.png';
+import project2 from '@/../public/images/project2.png';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
 
 export const links = [
@@ -40,77 +40,54 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Trustsoft s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'INTERN ARCHITECT',
+    location: 'PDC Architects, Gujarat, India',
     description:
-      'Front-end Developer. Providing services in the field of information technology services, including administration servers, cloud services, information systems and software development.',
+      'Developed technical drawings for projects and created schematic designs, presentations for concept proposals.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    date: 'January 2019 - May 2019',
   },
   {
-    title: 'Granton s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'ARCHITECT AND PROJECT MANAGER',
+    location: 'Earthscapes Consultancy Pvt. Ltd, Gujarat, India.',
     description:
-      'Front-end Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
+      'Led sustainable landscape design for large-scale urban and institutional projects, blending ecology, functionality, and stakeholder collaboration.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
-  },
-  {
-    title: 'WhirrCrew s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
-  },
-  {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
-    icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Jun 2024',
+    date: 'April 2021 - May 2022 ',
   },
 ] as const;
 
 export const images = {
   campwithusImg,
   carcatalogImg,
-  filedriveImg,
+  project3,
   projectmanagementImg,
   reactfoodImg,
 };
 
 export const projectsData = [
   {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, Due Diligence & more.`,
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'SCRUM Methodology'],
-    imageUrl: auditMasterImg,
-    link: 'https://auditmaster.ai/',
+    title: 'Landscape Development of Degraded Mining Site',
+    description: `A 77-acre eco-park proposal for an abandoned coal mine in Dhori, Jharkhand, focused on ecological restoration through native planting, bioremediation, and topographic transformation.`,
+    tags: ['Ecological Restoration', 'Landscape Planning', 'Rewilding', 'GIS'],
+    imageUrl: project1,
+    link: '',
   },
   {
-    title: 'Demo Automation of accounting documents processing',
+    title: 'Revival of Badkhal Lake',
     description:
-      'Upload any receipt or invoice (even a crumpled one from your pocket) and watch our AI accurately extract its data.',
-    tags: ['TypeScript', 'React', 'Docker', 'Next.js', 'GraphQL', 'Tailwind'],
-    imageUrl: accountingImg,
-    link: 'https://demo.grantonai.cz/',
+      'A lake rejuvenation project in Faridabad, Haryana, transforming a dried-up site into a biodiversity hub using urban resilience, floating wetlands, and sustainable water systems.',
+    tags: ['Urban Lake Restoration', 'Biodiversity', 'Water Management', 'Landscape Design'],
+    imageUrl: project2,
+    link: '',
   },
   {
-    title: 'FileDrive',
+    title: 'Police Training Center, Gujarat',
     description:
-      'A platform for decentralized file storage with robust user management.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
-    ],
-    imageUrl: filedriveImg,
-    link: 'https://github.com/bbyc4kes/file-drive',
+      'A sustainable master plan for a 150-acre police training center with climate-sensitive design, native landscaping, and green infrastructure. Created with studio Ardete & Dhruva Landscape.',
+    tags: ['Master Planning', 'Sustainable Landscape', 'Professional Practice'],
+    imageUrl: project3,
+    link: '',
   },
   {
     title: 'Portfolio',
